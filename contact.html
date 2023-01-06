@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- ANCHOR GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Monda:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- ANCHOR MATERIAL ICON -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css">
+    <!-- ANCHOR CUSTOM CSS -->
+    <link rel="stylesheet" href="css/mode.css">
+</head>
+
+<body>
+    <header class="text-center text-white">
+        <p class="mb-1 fs-1">PORTFOLIO</p>
+        <p><small>Website created by me</small></p>
+    </header>
+    <nav class="d-flex fw-wrap ai-c g-1 text-white px-1">
+        <a href="#">
+            <img src="images/profile.jpg" alt="Photo profile">
+        </a>
+        <a href="index.html">Accueil</a>
+        <a href="#">lien</a>
+        <a href="contact.html">Contact</a>
+        <a href="#"><span class="mdi mdi-menu"></span></a>
+    </nav>
+    <div class="d-flex fw-wrap">
+        <aside class="p-1 f-1-280">
+            <div class="mw-280 m-auto">
+                <img src="https://via.placeholder.com/250/?Text=Digital.com" alt="Lorem Ipsum">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor eligendi fugit nesciunt doloremque
+                    inventore aut repellendus officia, sed impedit repudiandae ipsa veniam, placeat voluptas molestias
+                    quidem accusantium asperiores cupiditate enim.</p>
+                <div class="sm text-center">
+                    <a class="p-1 inline-block" href="#">
+                        <span class="mdi mdi-facebook"></span>
+                    </a>
+                    <a class="p-1 inline-block" href="#">
+                        <span class="mdi mdi-github"></span>
+                    </a>
+                    <a class="p-1 inline-block" href="#">
+                        <span class="mdi mdi-codepen"></span>
+                    </a>
+                </div>
+            </div>
+        </aside>
+        <main class="p-1 f-2-560">
+            <div class="mw-900 m-auto">
+                <h1>Contactez-moi</h1>
+                <form action="#" method="get" class="d-flex fd-col g-1">
+                    <label for="prenom">Prénom:</label>
+                    <input id="prenom" type="text" name="prenom" placeholder="ex Jean" required>
+                    <label for="nom">Nom:</label>
+                    <input id="nom" type="text" name="nom" placeholder="ex  Dupond" required>
+                    <label for="tel">Téléphone:</label>
+                    <input id="tel" type="tel" name="tel" placeholder="00 00 00 00 00" required>
+                    <label for="email">Email:</label>
+                    <input id="email" type="email" name="email" placeholder="ex jean.dupond@gmail.com" required>
+                    <label for="sujet">Sujet:</label>
+                    <select id="sujet" name="sujet">
+                        <option value="default">--sélectionner--</option>
+                        <option value="Devis">Devis</option>
+                        <option value="Reclamation">Réclamation</option>
+                        <option value="Divers">Divers</option>
+                    </select>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Ecrivez votre message ici..."></textarea>
+                    <button class="as-fe" type="submit">Envoyer</button>
+                </form>
+            </div>
+        </main>
+    </div>
+    <footer class="p-1 text-center text-white">
+        <p><small>&copy; PORTFOLIO 2022</small></p>
+    </footer>
+
+</body>
+
+</html>
